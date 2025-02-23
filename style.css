@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 50px;
+    background-color: rgb(55, 55, 141);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+header .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: orangered;
+    border-bottom: 3px solid orangered;
+}
+.hero-section{
+    background-image: url(/images/image1.png);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hero-section h1{
+    color: RED;
+    font-size: 52px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 300PX;
+ 
+}
+.main-section{
+    background-color: white;
+
+}
+.main-div{
+    display: flex;
+    margin-top: 70px;
+}
+.first-division{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.second-division{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 200px;
+   
+    
+}
+.center{
+    margin-top: 60px;
+}
+.bank{
+    margin-top: 40px;
+    width: 1400px;
+}
+.brawn{
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.life{
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.serve{
+    display: flex;
+}
+.serve img{
+    padding: 30px;
+    margin: 5px;
+    border-radius: 80px;
+}
+.vice{
+    display: flex;
+}
+.vice img{
+    padding: 30px;
+    margin: 5px;
+    border-radius: 80px;
+    text-align: justify;
+}
