@@ -81,6 +81,28 @@ header .logo a {
    
     
 }
+.stats {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.glance{
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.stats div {
+    padding: 10px 20px;
+    margin: 50px;
+    font-size: 30px; 
+}
+
+.stats div:last-child {
+    border-right: none;
+    
+
+}
 .center{
     margin-top: 60px;
 }
@@ -115,3 +137,51 @@ header .logo a {
     border-radius: 80px;
     text-align: justify;
 }
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.footer-section {
+    width: 30%;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
